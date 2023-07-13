@@ -46,7 +46,10 @@ function Propsexample (){
     ];
     return(
         <>
-            <Props temp = {arr}/>
+            {arr.map((value,index) =>
+                <Props temp = {arr}/>
+            )}
+            
         </>
     );
 }
